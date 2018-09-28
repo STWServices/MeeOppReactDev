@@ -1,0 +1,3 @@
+rootProject.name = 'mvp_react'
+
+include ':app'

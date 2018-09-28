@@ -1,0 +1,13 @@
+image: node:8.10.0
+
+stages:
+  - static_analysis
+
+before_script:
+  - npm install
+
+lint_job:
+  stage: static_analysis
+  script:
+    - npm run lint
+
